@@ -29,9 +29,6 @@ Los datos fisiológicos y emocionales se procesan con lógica difusa para genera
 - Análisis fisiológico combinado
 - Generación de mensajes personalizados
 
-## Capturas y demostraciones
-
--Añadiré imágenes de los bloques de App Inventor, pantalla OLED y video de funcionamiento.
 
 ---
 
