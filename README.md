@@ -1,0 +1,1 @@
+# Sistema-el-ctronico-de-detecci-n-y-ayuda-a-la-gesti-n-emocional
