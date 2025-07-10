@@ -1,0 +1,744 @@
+{
+  "Preguntas": {
+    "61": {
+      "texto": "Me siento satisfecho/a con los logros que he alcanzado.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "62": {
+      "texto": "Tengo metas claras para el futuro.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "63": {
+      "texto": "Estoy motivado/a para alcanzar mis objetivos personales.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "64": {
+      "texto": "Estoy logrando los objetivos que me propuse.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "65": {
+      "texto": "Siento que avanzo hacia mis metas personales.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "66": {
+      "texto": "Me siento motivado/a para seguir trabajando por mis sueños.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "67": {
+      "texto": "Sé cómo gestionar mis emociones cuando no logro una meta.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "68": {
+      "texto": "Me siento bien con mi progreso en los últimos meses.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "69": {
+      "texto": "Me pongo pequeñas metas que me ayudan a lograr mis objetivos.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "70": {
+      "texto": "Suelo revisar y actualizar mis metas personales.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "71": {
+      "texto": "Me esfuerzo constantemente por alcanzar mis metas.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "72": {
+      "texto": "Me siento orgulloso/a de lo que he logrado hasta ahora.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "73": {
+      "texto": "Cuando alcanzo una meta, me siento más animado/a.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "74": {
+      "texto": "Siento que mis metas están alineadas con lo que quiero en la vida.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "75": {
+      "texto": "Me mantengo enfocado/a en mis objetivos personales.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "76": {
+      "texto": "Valoro el progreso, aunque sea pequeño.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "77": {
+      "texto": "Mis logros tienen un impacto positivo en mi estado emocional.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "78": {
+      "texto": "Haber superado obstáculos me hace sentir más fuerte.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "79": {
+      "texto": "Tengo un plan claro para seguir creciendo personal o profesionalmente.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "80": {
+      "texto": "Mis metas me inspiran a seguir adelante.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1,
+          "tristeza": 1,
+          "ira": 1,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 0.25,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -0.25,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1,
+          "tristeza": -1,
+          "ira": -1,
+          "estres": -0.5,
+          "cansancio": -0.5
+        }
+      }
+    }
+  }
+}

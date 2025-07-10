@@ -1,0 +1,744 @@
+{
+  "Preguntas_Sueño": {
+    "1": {
+      "texto": "He dormido bien los últimos días.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "2": {
+      "texto": "Mi nivel de energía en los últimos días ha sido alto.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "3": {
+      "texto": "He sentido que necesito más descanso durante el día.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "4": {
+      "texto": "Creo que he dormido suficientes horas últimamente.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "5": {
+      "texto": "He tenido dificultades para conciliar el sueño.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "6": {
+      "texto": "Dedico suficiente tiempo cada día a momentos de descanso.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "7": {
+      "texto": "Suelo tomar pequeños descansos durante el día para recuperarme.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "8": {
+      "texto": "Siento que mis momentos de descanso son suficientes.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "9": {
+      "texto": "Mis descansos me ayudan a recuperarme física y mentalmente.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "10": {
+      "texto": "Después de tomarme un descanso me siento mejor.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "11": {
+      "texto": "Me despierto sintiéndome descansado y con energía.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "12": {
+      "texto": "Durante el día, me siento con suficiente energía para realizar mis actividades.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "13": {
+      "texto": "He dormido las horas necesarias para sentirme bien.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "14": {
+      "texto": "Me cuesta mantenerme despierto durante el día.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "15": {
+      "texto": "Mis patrones de sueño han sido regulares esta semana.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "16": {
+      "texto": "Me siento agotado al final del día.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "17": {
+      "texto": "Me tomo el tiempo necesario para relajarme antes de dormir.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "18": {
+      "texto": "Puedo conciliar el sueño fácilmente cuando me acuesto.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "19": {
+      "texto": "He tenido interrupciones frecuentes en mi sueño.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    },
+    "20": {
+      "texto": "Mis hábitos de descanso me ayudan a recuperarme del estrés.",
+      "respuestas": {
+        "1": {
+          "alegria": -0.5,
+          "calma": -1,
+          "tristeza": 0.5,
+          "ira": 0.5,
+          "estres": 1,
+          "cansancio": 3
+        },
+        "2": {
+          "alegria": -0.25,
+          "calma": -0.5,
+          "tristeza": 0.25,
+          "ira": 0.25,
+          "estres": 0.5,
+          "cansancio": 1.5
+        },
+        "3": {
+          "alegria": 0.25,
+          "calma": 0.5,
+          "tristeza": -0.25,
+          "ira": -0.25,
+          "estres": -0.5,
+          "cansancio": -1.5
+        },
+        "4": {
+          "alegria": 0.5,
+          "calma": 1,
+          "tristeza": -0.5,
+          "ira": -0.5,
+          "estres": -1,
+          "cansancio": -3
+        }
+      }
+    }
+  }
+}

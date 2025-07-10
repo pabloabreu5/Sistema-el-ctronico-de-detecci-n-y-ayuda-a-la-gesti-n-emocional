@@ -1,0 +1,744 @@
+{
+  "Preguntas": {
+    "81": {
+      "texto": "Me siento abrumado/a por mis emociones recientes.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "82": {
+      "texto": "Me siento generalmente optimista sobre mi futuro.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "83": {
+      "texto": "Mis emociones son fáciles de manejar.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "84": {
+      "texto": "Últimamente me he sentido triste o preocupado/a.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "85": {
+      "texto": "He experimentado cambios bruscos en mi estado de ánimo.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "86": {
+      "texto": "Siento que mi mente está demasiado ocupada o dispersa.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "87": {
+      "texto": "Gestiono bien el estrés en mi día a día.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "88": {
+      "texto": "Tiende a sobrepensar las cosas con frecuencia.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "89": {
+      "texto": "Considero que hablar con un profesional me ayudaría emocionalmente.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "90": {
+      "texto": "Últimamente he sentido ansiedad o nerviosismo con frecuencia.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "91": {
+      "texto": "Me cuesta desconectar mentalmente aunque tenga tiempo libre.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "92": {
+      "texto": "Últimamente me he sentido emocionalmente estable.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "93": {
+      "texto": "Siento que tengo recursos personales para afrontar el estrés.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "94": {
+      "texto": "Me preocupo en exceso por cosas fuera de mi control.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "95": {
+      "texto": "Me cuesta concentrarme en tareas importantes.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "96": {
+      "texto": "Tengo pensamientos negativos recurrentes.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "97": {
+      "texto": "Soy capaz de reconocer cómo me siento emocionalmente.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "98": {
+      "texto": "Me resulta fácil compartir mis emociones con los demás.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "99": {
+      "texto": "Últimamente he tenido cambios de humor sin razón clara.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    },
+    "100": {
+      "texto": "Siento que tengo control sobre mis emociones.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -1.5,
+          "tristeza": 1.5,
+          "ira": 1,
+          "estres": 1.5,
+          "cansancio": 0.5
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.75,
+          "tristeza": 0.75,
+          "ira": 0.5,
+          "estres": 0.75,
+          "cansancio": 0.25
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.75,
+          "tristeza": -0.75,
+          "ira": -0.5,
+          "estres": -0.75,
+          "cansancio": -0.25
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 1.5,
+          "tristeza": -1.5,
+          "ira": -1,
+          "estres": -1.5,
+          "cansancio": -0.5
+        }
+      }
+    }
+  }
+}

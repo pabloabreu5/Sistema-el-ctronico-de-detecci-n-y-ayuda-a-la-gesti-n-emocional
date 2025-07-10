@@ -1,0 +1,744 @@
+{
+  "Preguntas": {
+    "41": {
+      "texto": "Me he sentido satisfecho/a con las actividades que realizo.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "42": {
+      "texto": "Dedico tiempo cada día a actividades que disfruto.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "43": {
+      "texto": "Me siento motivado/a para realizar mis actividades cotidianas.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "44": {
+      "texto": "Siento que hay un equilibrio entre mis actividades y mi tiempo libre.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "45": {
+      "texto": "Las actividades que realizo me ayudan a sentirme mejor emocionalmente.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "46": {
+      "texto": "Realizo actividades que disfruto con frecuencia.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "47": {
+      "texto": "Tengo suficiente tiempo para el ocio y el descanso.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "48": {
+      "texto": "Estoy satisfecho/a con las actividades que hago durante la semana.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "49": {
+      "texto": "Suelo salir a socializar con personas con las que me siento bien.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "50": {
+      "texto": "Cuando realizo actividades que me gustan, me siento más animado/a.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "51": {
+      "texto": "Disfruto de las actividades que realizo en mi tiempo libre.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "52": {
+      "texto": "Me esfuerzo por incluir momentos de ocio en mi rutina.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "53": {
+      "texto": "Participo en actividades que me permiten expresarme creativamente.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "54": {
+      "texto": "Tengo la oportunidad de hacer cosas que me hacen feliz.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "55": {
+      "texto": "Siento que mis actividades diarias tienen un propósito.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "56": {
+      "texto": "Me organizo bien para tener tiempo para mí.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "57": {
+      "texto": "Me siento productivo/a con lo que hago cada día.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "58": {
+      "texto": "Mis actividades diarias me dan una sensación de logro personal.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "59": {
+      "texto": "Puedo equilibrar bien mis responsabilidades y mi tiempo libre.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    },
+    "60": {
+      "texto": "Realizo actividades que me permiten desconectar del estrés.",
+      "respuestas": {
+        "1": {
+          "alegria": -1,
+          "calma": -0.5,
+          "tristeza": 0.5,
+          "ira": 1,
+          "estres": 1,
+          "cansancio": 1
+        },
+        "2": {
+          "alegria": -0.5,
+          "calma": -0.25,
+          "tristeza": 0.25,
+          "ira": 0.5,
+          "estres": 0.5,
+          "cansancio": 0.5
+        },
+        "3": {
+          "alegria": 0.5,
+          "calma": 0.25,
+          "tristeza": -0.25,
+          "ira": -0.5,
+          "estres": -0.5,
+          "cansancio": -0.5
+        },
+        "4": {
+          "alegria": 1,
+          "calma": 0.5,
+          "tristeza": -0.5,
+          "ira": -1,
+          "estres": -1,
+          "cansancio": -1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,744 @@
+{
+  "Preguntas": {
+    "21": {
+      "texto": "Me siento apoyado/a por las personas que me rodean.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "22": {
+      "texto": "El ambiente en mi lugar de trabajo o estudio es positivo.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "23": {
+      "texto": "Me siento conectado/a con las personas con las que convivo o comparto tiempo.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "24": {
+      "texto": "Mi entorno físico (casa, oficina, escuela...) me hace sentir cómodo/a.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "25": {
+      "texto": "El ruido o las distracciones en mi entorno afectan negativamente a mi bienestar.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "26": {
+      "texto": "Siento que las personas de mi entorno comprenden mis emociones.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "27": {
+      "texto": "Las personas de mi alrededor me transmiten tranquilidad.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "28": {
+      "texto": "El ambiente donde paso la mayor parte del tiempo es agradable.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "29": {
+      "texto": "Mi entorno contribuye positivamente a mi bienestar emocional.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "30": {
+      "texto": "Tengo una buena relación con las personas de mi entorno cercano.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "31": {
+      "texto": "Me siento escuchado/a por las personas que me rodean.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "32": {
+      "texto": "Puedo expresar mis emociones con libertad en mi entorno.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "33": {
+      "texto": "Las personas a mi alrededor me ayudan a gestionar momentos difíciles.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "34": {
+      "texto": "Mi entorno me hace sentir seguro/a.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "35": {
+      "texto": "Mis relaciones sociales son satisfactorias.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "36": {
+      "texto": "Me siento valorado/a por quienes me rodean.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "37": {
+      "texto": "Recibo el apoyo emocional que necesito de mi entorno.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "38": {
+      "texto": "Las personas cercanas a mí suelen notar cómo me siento.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "39": {
+      "texto": "Mi entorno me motiva a ser una mejor versión de mí mismo/a.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    },
+    "40": {
+      "texto": "Me siento parte importante dentro de mi entorno.",
+      "respuestas": {
+        "1": {
+          "alegria": -1.5,
+          "calma": -1,
+          "tristeza": 1.5,
+          "ira": 1.5,
+          "estres": 1,
+          "cansancio": 0
+        },
+        "2": {
+          "alegria": -0.75,
+          "calma": -0.5,
+          "tristeza": 0.75,
+          "ira": 0.75,
+          "estres": 0.5,
+          "cansancio": 0
+        },
+        "3": {
+          "alegria": 0.75,
+          "calma": 0.5,
+          "tristeza": -0.75,
+          "ira": -0.75,
+          "estres": -0.5,
+          "cansancio": 0
+        },
+        "4": {
+          "alegria": 1.5,
+          "calma": 1,
+          "tristeza": -1.5,
+          "ira": -1.5,
+          "estres": -1,
+          "cansancio": 0
+        }
+      }
+    }
+  }
+}
