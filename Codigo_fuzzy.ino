@@ -81,11 +81,11 @@ void setup() {
 
   // Inicializa el sensor
   if (!particleSensor.begin(Wire, I2C_SPEED_FAST)) {
-    Serial.println("❌ Sensor MAX30102 no encontrado. Revisa conexión.");
+    Serial.println(" Sensor MAX30102 no encontrado. Revisa conexión.");
     while (1);
   }
   if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3C)) {
-    Serial.println(F("❌ No se detecta la pantalla OLED"));
+    Serial.println(F(" No se detecta la pantalla OLED"));
     while (true);
   }
 
@@ -95,7 +95,7 @@ void setup() {
   
   
 
-  Serial.println("🖐 Coloca el dedo sobre el sensor...");
+  Serial.println(" Coloca el dedo sobre el sensor...");
   display.clearDisplay();
   display.setTextSize(1);
   display.setTextColor(SSD1306_WHITE);
@@ -113,12 +113,12 @@ void setup() {
   display.display();
   
   do{
-    Serial.println("🔎 Esperando dedo...");
+    Serial.println(" Esperando dedo...");
     delay(1000);
     irValue = particleSensor.getIR();
   }while (irValue < 10000); 
 
-  Serial.println("✅ Dedo detectado. Iniciando medición. Mantenga 30 segundos...");
+  Serial.println(" Dedo detectado. Iniciando medición. Mantenga 30 segundos...");
   display.clearDisplay();
   display.setCursor(5, 10);
   display.println("Dedo detectado");
@@ -154,7 +154,7 @@ void setup() {
         totalBPM += beatsPerMinute;
         datosBPM.push_back(beatsPerMinute);
 
-        Serial.print("❤️ BPM detectado: ");
+        Serial.print(" BPM detectado: ");
         Serial.print(beatsPerMinute);
         Serial.print(" | Promedio: ");
         Serial.println(beatAvg);
@@ -166,21 +166,21 @@ void setup() {
 
   if (validBeats > 0) {
     promedioFinal = totalBPM / validBeats;
-    Serial.print("✅ Medición terminada. BPM promedio: ");
+    Serial.print(" Medición terminada. BPM promedio: ");
     Serial.println(promedioFinal);
   } else {
-    Serial.println("⚠️ No se detectaron pulsos válidos.");
+    Serial.println(" No se detectaron pulsos válidos.");
   }
 
   
 
   hrv = calcularHRV(filtrarRR(intervalosRR));
   hrv = (int)hrv;
-  Serial.print("📈 HRV estimada: ");
+  Serial.print("HRV estimada: ");
   Serial.print(hrv);
   Serial.println(" ms");
 
-  Serial.println("📡 Iniciando análisis de SpO2...");
+  Serial.println("Iniciando análisis de SpO2...");
 
   for (int i = 0; i < 100; i++) {
     while (!particleSensor.available()) particleSensor.check();
@@ -192,7 +192,7 @@ void setup() {
   maxim_heart_rate_and_oxygen_saturation(irBuffer, 100, redBuffer, &spo2, &validSPO2, &beatAvgSpO2, &validHR);
 
 
-  Serial.println("✅ Proceso completo. No se realizarán más mediciones.");
+  Serial.println("Proceso completo. No se realizarán más mediciones.");
   delay(3000);
   display.clearDisplay();
   display.setCursor(5, 10);
@@ -208,7 +208,7 @@ void setup() {
   display.display();  
 
   if (validSPO2) {
-  Serial.print("🩸 SpO2 estimado: ");
+  Serial.print("SpO2 estimado: ");
   Serial.print(spo2);
   Serial.println(" %");
 
@@ -218,7 +218,7 @@ void setup() {
   display.println("SpO2: " + String(spo2) + " %");
   display.display();
   } else {
-  Serial.println("⚠️ SpO2 no valido.");
+  Serial.println("SpO2 no valido.");
   }
 
   
@@ -262,9 +262,9 @@ void setup() {
     datosBPM[i] = (int)datosBPM[i];
 
     if (Firebase.RTDB.setFloat(&fbdo, pathDato, datosBPM[i])) {
-      Serial.println("✅ BPM " + String(i) + " subido: " + String(datosBPM[i], 0));
+      Serial.println("BPM " + String(i) + " subido: " + String(datosBPM[i], 0));
     } else {
-      Serial.println("❌ Error al subir Dato" + String(i) + ": " + fbdo.errorReason());
+      Serial.println("Error al subir Dato" + String(i) + ": " + fbdo.errorReason());
     }
   }
 
@@ -272,25 +272,25 @@ void setup() {
   // Subir la media
   String pathMedia = "/Usuarios/Pablo/DatosFisiologicos/PromedioPPM";
   if (Firebase.RTDB.setInt(&fbdo, pathMedia, promedioFinal)) {
-    Serial.println("✅ Promedio BPM subido: " + String(promedioFinal));
+    Serial.println("Promedio BPM subido: " + String(promedioFinal));
   } else {
-    Serial.println("❌ Error al subir promedio: " + fbdo.errorReason());
+    Serial.println("Error al subir promedio: " + fbdo.errorReason());
   }
 
   // Subir HRV a Firebase
   String pathHRV = "/Usuarios/Pablo/DatosFisiologicos/HRV";
   if (Firebase.RTDB.setFloat(&fbdo, pathHRV, hrv)) {
-    Serial.println("✅ HRV subida a Firebase");
+    Serial.println("HRV subida a Firebase");
   } else {
-    Serial.println("❌ Error al subir HRV: " + fbdo.errorReason());
+    Serial.println("Error al subir HRV: " + fbdo.errorReason());
   }
 
   // Subir SpO2 a Firebase
   String pathSpO2 = "/Usuarios/Pablo/DatosFisiologicos/SpO2";
   if (Firebase.RTDB.setInt(&fbdo, pathSpO2, spo2)) {
-    Serial.println("✅ SpO2 subido a Firebase");
+    Serial.println("SpO2 subido a Firebase");
   } else {
-    Serial.println("❌ Error al subir SpO2: " + fbdo.errorReason());
+    Serial.println("Error al subir SpO2: " + fbdo.errorReason());
   }
   
 
@@ -300,7 +300,7 @@ void setup() {
 void loop() {
   if (!yaMedido && Firebase.RTDB.getString(&fbdo, "/Usuarios/Pablo/Estado")) {
     if (fbdo.to<String>() == "true") {
-      Serial.println("✅ Comenzando la medición...");
+      Serial.println("Comenzando la medición...");
       yaMedido = true;  // Para evitar repetir
 
       iniciarMedicion();
@@ -344,7 +344,7 @@ void obtenerTodasLasFechas() {
     FirebaseJson& json = fbdo.jsonObject(); // Objeto JSON recibido
     size_t total = json.iteratorBegin(); // Comienza a iterar sobre las claves
 
-    Serial.println("🔎 Fechas encontradas:");
+    Serial.println("Fechas encontradas:");
     for (size_t i = 0; i < total; i++) {
       int tipo;
       String clave, valor;
@@ -387,23 +387,23 @@ void obtenerTodasLasFechas() {
         v_ira.push_back(ir.to<float>());
         v_tristeza.push_back(tri.to<float>());
         // Imprime los datos obtenidos de la fecha actual
-        Serial.println("📆 Fecha: " + fecha);
-        Serial.println("  🌞 Alegría: " + ale.to<String>());
-        Serial.println("  🌿 Calma: " + cal.to<String>());
-        Serial.println("  💤 Cansancio: " + can.to<String>());
-        Serial.println("  ⚡ Estrés: " + est.to<String>());
-        Serial.println("  🔥 Ira: " + ir.to<String>());
-        Serial.println("  🌧 Tristeza: " + tri.to<String>());
+        Serial.println("Fecha: " + fecha);
+        Serial.println("  Alegría: " + ale.to<String>());
+        Serial.println("  Calma: " + cal.to<String>());
+        Serial.println("  Cansancio: " + can.to<String>());
+        Serial.println("  Estrés: " + est.to<String>());
+        Serial.println("  Ira: " + ir.to<String>());
+        Serial.println("  Tristeza: " + tri.to<String>());
         Serial.println("-----------------------------------");
 
       } else {
-        Serial.println("❌ Error leyendo emociones de " + fecha + ": " + fbdo.errorReason());
+        Serial.println("Error leyendo emociones de " + fecha + ": " + fbdo.errorReason());
       }
     }
     
 
   } else {
-    Serial.println("❌ Error al obtener las fechas: " + fbdo.errorReason());
+    Serial.println("Error al obtener las fechas: " + fbdo.errorReason());
   }
   // Imprime en consola todos los vectores emoción por emoción
   for (size_t i = 0; i < fechas.size(); i++) {
@@ -480,7 +480,7 @@ void analizarEstadoMensual() {
   float prom_tristeza = calcularPromedio(v_tristeza);
 
   
-  Serial.println("📊 PROMEDIOS MENSUALES:");
+  Serial.println("PROMEDIOS MENSUALES:");
   mostrarValorClasificado("Alegría", prom_alegria);
   mostrarValorClasificado("Calma", prom_calma);
   mostrarValorClasificado("Cansancio", prom_cansancio);
@@ -531,7 +531,7 @@ void analizarEstadoMensual() {
 void analizarUltimaSemana() {
   int total = v_alegria.size();  // suponemos que todos los vectores tienen el mismo tamaño
   if (total < 7) {
-    Serial.println("⚠️ No hay suficientes datos para analizar la última semana.");
+    Serial.println("No hay suficientes datos para analizar la última semana.");
     return;
   }
 
@@ -545,7 +545,7 @@ void analizarUltimaSemana() {
   float i = promedioParcial(v_ira, inicio, fin);
   float t = promedioParcial(v_tristeza, inicio, fin);
 
-  Serial.println("📅 Análisis de los últimos 7 días:");
+  Serial.println("Análisis de los últimos 7 días:");
   mostrarValorClasificado("Alegría", a);
   mostrarValorClasificado("Calma", c);
   mostrarValorClasificado("Cansancio", can);
@@ -600,7 +600,7 @@ float promedioParcial(const std::vector<float>& vec, int inicio, int fin) {
 void analizarUltimoDia() {
   int total = v_alegria.size();  // asumimos todos los vectores tienen la misma longitud
   if (total == 0) {
-    Serial.println("⚠️ No hay datos disponibles para analizar el último día.");
+    Serial.println("No hay datos disponibles para analizar el último día.");
     return;
   }
 
@@ -611,7 +611,7 @@ void analizarUltimoDia() {
   float i = v_ira[total - 1];
   float t = v_tristeza[total - 1];
 
-  Serial.println("📅 Análisis del último día registrado:");
+  Serial.println("Análisis del último día registrado:");
   mostrarValorClasificado("Alegría", a);
   mostrarValorClasificado("Calma", c);
   mostrarValorClasificado("Cansancio", can);
@@ -723,9 +723,9 @@ String retroalimentacion(
 void subirRetroalimentacion(String tipo, String clave, String mensaje) {
   String path = "/Usuarios/Pablo/Retroalimentacion/" + tipo + "/" + clave;
   if (Firebase.RTDB.setString(&fbdo, path, mensaje)) {
-    Serial.println("✅ Retroalimentación " + tipo + " guardada en: " + path);
+    Serial.println("Retroalimentación " + tipo + " guardada en: " + path);
   } else {
-    Serial.println("❌ Error al subir " + tipo + ": " + fbdo.errorReason());
+    Serial.println("Error al subir " + tipo + ": " + fbdo.errorReason());
   }
 }
 
